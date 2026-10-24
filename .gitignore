@@ -1,0 +1,29 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Generated workout results
+/aplikasi_MOVION/results/
+
+# Large training datasets
+/model_attentionLSTM/kinetics_dataset/
+/model_attentionLSTM/kinetics_dataset_standardized/
+/model_attentionLSTM/pose_sequences/
+/model_attentionLSTM/pose_sequences_kinetics/
+/model_attentionLSTM/pose_sequences_self/
+/model_attentionLSTM/self_record_dataset/
+/model_attentionLSTM/self_record_dataset_standardized/

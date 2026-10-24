@@ -1,0 +1,1012 @@
+﻿#splashScreen, #sidebar {
+  background-color: #1D192E;
+}
+
+#loadingBar {
+  min-height: 4px;
+  max-height: 4px;
+
+  border: none;
+  border-radius: 2px;
+
+  background-color: #DEDEDE;
+}
+
+#loadingBar::chunk {
+  background-color: #86AA3E;
+  border-radius: 2px;
+}
+
+#loadingText {
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-weight: 500;
+  color: #DEDEDE;
+}
+
+QMainWindow,
+QWidget[role="scrollContent"] {
+  background-color: #0E0F1C;
+}
+
+QWidget {
+  font-family: "Poppins", "Noto Sans";
+}
+
+QMessageBox {
+  background-color: #292D5E;
+  font-family: "Noto Sans";
+  font-weight: 600;
+  border-radius: 8px;
+  color: #DEDEDE;
+
+}
+
+QMessageBox QPushButton {
+  border: 1px solid #68676D;
+  background-color: #0E0F1C;
+  font-family: "Poppins";
+  font-weight: 700;
+  border-radius: 4px;
+  color: #B8C6FF;
+  padding: 4px 20px;
+}
+
+/* Login Page; Forgot Pass Page */
+QFrame[role="logoFrame"] {
+  background-color: #1D192E;
+}
+
+#loginHeading, #signupHeading{
+  font-family: "Poppins";
+  font-weight: 700;
+  color: #B8C6FF;
+  font-size: 20px;
+}
+
+#forgotPassHeading {
+  font-family: "Poppins";
+  font-weight: 600;
+  color: #B8C6FF;
+  font-size: 22px;
+}
+
+#loginSubheading, #forgotPassSubheading, #signupSubheading {
+  font-family: "Noto Sans";
+  font-weight: 500;
+  color: #C7C7C7;
+  font-size: 16px;
+}
+
+QLineEdit[role="authForm"], #emailForgotPass {
+  border: 1px solid #E0E0E0;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-family: "Noto Sans";
+  font-size: 14px;
+  background-color: #B7BED7;
+  color: #1D192E;
+}
+
+QLineEdit[role="authForm"]:focus, #emailForgotPass:focus {
+  border: 2px solid #FA8112;
+  background-color: #B7BED7;
+}
+
+QPushButton[role="authButton"] {
+  background-color: #334DB4;
+  color: #C7C7C7;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  padding: 8px;
+  border-radius: 18px;
+}
+
+#forgotPass {
+  font-family: "Noto Sans";
+  font-size: 14px;
+  font-weight: 400;
+  color: #B8C6FF;
+}
+
+#authChangingPage {
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-weight: 500;
+  color: #B8C6FF;
+}
+
+#backToLogin {
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-weight: 500;
+  color: #B8C6FF;
+  text-decoration: underline;
+}
+
+/* Profile Setup */
+#setupHeading {
+  font-family: "Poppins";
+  font-weight: 700;
+  color: #B8C6FF;
+  font-size: 26px;
+}
+
+#setupSubheading {
+  font-family: "Noto Sans";
+  font-weight: 500;
+  color: #C7C7C7;
+  font-size: 18px;
+}
+
+#formHeading {
+  font-family: "Poppins";
+  font-weight: 700;
+  color: #CBD5FF;
+  font-size: 20px;
+}
+
+QFrame[role="formCard"] {
+  border: 1px solid #68676D;
+  background-color: #1D192E;
+  border-radius: 10px;
+}
+
+QLabel[role="formLabel"] {
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-weight: 700;
+  color: #C7C7C7;
+}
+
+QWidget[role="formValue"] {
+  border: 1px solid #E0E0E0;
+  background-color: #B7BED7;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-family: "Noto Sans";
+  font-size: 14px;
+  font-weight: 500;
+  color: #1D192E;
+}
+
+QComboBox[role="formValue"] QAbstractItemView {
+  background-color: #8D9AC9;
+  color: #1D192E;
+  selection-background-color: #9CA6C8;
+  selection-color: #1D192E;
+}
+
+QWidget[role="formValue"]:focus {
+  border: 2px solid #FA8112;
+  background-color: #B7BED7;
+}
+
+#notice {
+  font-family: "Noto Sans";
+  font-weight: 400;
+  color: #C7C7C7;
+  font-size: 16px;
+}
+
+#setupButton {
+  background-color: #334DB4;
+  color: #DEDEDE;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+/* Widget Pages */
+QPushButton[role="button1"] {
+  background-color: #334DB4;
+  color: #DEDEDE;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  padding: 10px 60px;
+  border-radius: 20px;
+}
+
+QScrollBar:vertical {
+  border: none;
+  background-color: #3E3469;
+  width: 6px;
+}
+
+QToolButton {
+  border: none;
+  padding: 4px;
+  color: #CAD2F1;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+QToolButton:hover {
+  background-color: #424C72;
+  border-radius: 4px;
+}
+
+QToolButton:checked {
+  background-color: #3E3469;
+  border-radius: 4px;
+}
+
+/* Homepage's */
+QLabel[role="pageTitle"] {
+  font-family: "Noto Sans";
+  font-size: 12px;
+  font-weight: 500;
+  color: #C7C7C7;
+  letter-spacing: 2px;
+  margin: 6px;
+}
+
+#heroHeading {
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 700;
+  color: #B8C6FF;
+}
+
+#heroSubheading {
+  font-family: "Noto Sans";
+  font-size: 19px;
+  font-weight: 500;
+  color: #C7C7C7;
+}
+
+#heroButton {
+  background-color: #334DB4;
+  color: #DEDEDE;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  padding: 10px 60px;
+  border-radius: 20px;
+}
+
+QLabel[role="heading2"] {
+  font-family: "Poppins";
+  font-weight: 600;
+  color: #B8C6FF;
+  font-size: 24px;
+}
+
+#dashboardCard, #graphCard {
+  background-color: #292D5E;
+  border-radius: 8px;
+  padding: 12px;
+  border: 1px solid #6B6C79;
+}
+
+QLabel[role="statValue"] {
+  font-family: "Poppins";
+  font-size: 26px;
+  font-weight: 700;
+  color: #B8C6FF;
+}
+
+QLabel[role="statTitle"] {
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-weight: 500;
+  color: #C7C7C7;
+}
+
+#chartTitle {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 600;
+  color: #B8C6FF;
+}
+
+QFrame[role="accordion"] {
+  background-color: #292D5E;
+  padding: 20px;
+  border: 1px solid #6B6C79;
+  border-radius: 12px;
+}
+
+QFrame[role="accordion"][expanded="true"] {
+    border: 1px solid #7C86D6;
+    background-color: #2F3570;
+}
+
+QLabel[role="faqQuestion"] {
+  border: none;
+  color: #DEDEDE;
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-weight: 600;
+}
+
+QLabel[role="faqAnswer"] {
+  color: #CECECE;
+  font-family: "Noto Sans";
+  font-size: 14px;
+}
+
+/* Workout Preview's */
+#tipsFrame {
+  background-color: #292D5E;
+  border-radius: 8px;
+  padding: 6px 10px;
+  border: 1px solid #6B6C79;
+}
+
+QLabel[role="subheading2"] {
+  font-family: "Poppins";
+  font-weight: 600;
+  color: #B8C6FF;
+  font-size: 18px;
+}
+
+#tipsText {
+ font-family: "Noto Sans";
+ font-weight: 500;
+ color: #DEDEDE;
+ font-size: 16px;
+}
+
+QLabel[role="heading3"],  QLabel[role="trackingTitle"]{
+  font-family: "Poppins";
+  font-weight: 600;
+  color: #B8C6FF;
+  font-size: 20px;
+}
+
+QLabel[role="workoutImage"] {
+  background-color: #2B3353;
+  border-radius: 8px;
+  padding: 8px;
+  border: 1px solid #6B6C79;
+}
+
+QLabel[role="heading4"] {
+  font-family: "Noto Sans";
+  font-weight: 500;
+  color: #DEDEDE;
+  font-size: 16px;
+}
+
+QLabel[role="repsText"] {
+  font-family: "Noto Sans";
+  color: #C7C7C7;
+  font-size: 14px;
+}
+
+/* Tracking Page's */
+QFrame[role="trackingFrame"] {
+  background-color: #292D5E;
+  border: 1px solid #6B6C79;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+QFrame[role="trackingFrame"]:hover {
+  border: 1px solid #7C86D6;
+}
+
+QLabel[role="trackingDesc"] {
+  font-family: "Noto Sans";
+  font-weight: 500;
+  color: #DEDEDE;
+  font-size: 12px;
+}
+
+QRadioButton::indicator {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #FF7043;
+  border-radius: 10px;
+}
+
+QRadioButton::indicator:checked {
+  background-color: #FF7043;
+}
+
+#camFrame {
+  background-color: #444A8C;
+  border-radius: 8px;
+  border: 1px solid #828282;
+}
+
+#camDetectedTitle {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 600;
+  color: #D8DFFF;
+}
+
+#divider {
+  background-color: #828282;
+}
+
+#camSourceName {
+  font-family: "Noto Sans";
+  font-size: 14px;
+  font-weight: 600;
+  color: #DEDEDE;
+}
+
+QPushButton[role="changeButton"] {
+  background-color: #FB983D;
+  color: #1D192E;
+  font-family: "Poppins";
+  font-size: 10px;
+  font-weight: 500;
+  border: none;
+  padding: 6px;
+  border-radius: 12px;
+}
+
+#camSelection {
+  background-color: #292D5E;
+  border-radius: 8px;
+}
+
+#camSelection QComboBox {
+  background-color: #444A8C;
+  font-family: "Noto Sans";
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 4px;
+  padding: 10px;
+  color: #DEDEDE;
+}
+
+#camSelection QPushButton {
+  border: 1px solid #68676D;
+  background-color: #0E0F1C;
+  font-family: "Poppins";
+  font-weight: 700;
+  border-radius: 4px;
+  color: #B8C6FF;
+  padding: 4px 20px;
+}
+
+/* Warm-Cool Page's */
+QToolButton[role="backPauseButton"] {
+  background: transparent;
+  border: none;
+  padding-left: 10px;
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 500;
+  color: #C7C7C7;
+}
+
+#warmcoolSubheading, QLabel[role="infoPageHeading"] {
+  font-family: "Poppins";
+  font-weight: 600;
+  color: #B8C6FF;
+  font-size: 22px;
+}
+
+#warmcoolText {
+  font-family: "Noto Sans";
+  font-weight: 500;
+  color: #C7C7C7;
+  font-size: 20px;
+}
+
+/* Workout Guide */
+#guideFrame {
+  background-color: #292D5E;
+  border: 1px solid #68676D;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+#videoFrame {
+  background-color: #879AE3;
+  border-radius: 14px;
+}
+
+#playWorkoutVids {
+  background: transparent;
+  border: none;
+}
+
+#playWorkoutVids:hover {
+  background: transparent;
+}
+
+#playWorkoutVids:pressed {
+  background: transparent;
+}
+
+#exerciseGuideName {
+  font-family: "Poppins";
+  font-weight: 600;
+  color: #DEDEDE;
+  font-size: 20px;
+}
+
+QFrame[role="muscleGainFrame"] {
+  background-color: #8799E3;
+  padding: 2px 4px;
+  border-radius: 14px;
+}
+
+QFrame[role="muscleGainFrame"] QLabel {
+  font-family: "Noto Sans";
+  font-weight: 700;
+  color: #292D5E;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+QLabel[role="workoutGuideText"] {
+  font-family: "Noto Sans";
+  font-weight: 600;
+  color: #DEDEDE;
+  font-size: 16px;
+}
+
+#workoutGuideText2 {
+  font-family: "Noto Sans";
+  font-weight: 400;
+  color: #C7C7C7;
+  font-size: 16px;
+}
+
+#timer {
+  font-family: "Noto Sans";
+  font-weight: 700;
+  color: #FFB673;
+  font-size: 22px;
+}
+
+#timerExerciseText {
+  font-family: "Noto Sans";
+  font-weight: 400;
+  color: #C7C7C7;
+  font-size: 14px;
+}
+
+#beginWorkoutBtn {
+  background-color: #FB983D;
+  color: #1D192E;
+  font-family: "Poppins";
+  font-size: 13px;
+  font-weight: 600;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 20px;
+}
+
+/* Workout Session */
+QFrame[role="workoutSessionFrame"] {
+  background-color: #1D192E;
+  border-top: 1px solid #68676D;
+  border-bottom: 1px solid #68676D;
+}
+
+#workoutSessionTitle {
+  font-family: "Poppins";
+  font-weight: 600;
+  color: #B8C6FF;
+  font-size: 18px;
+}
+
+QLabel[role="workoutSessionText"] {
+  font-family: "Poppins";
+  font-weight: 500;
+  color: #B8C6FF;
+  font-size: 16px;
+}
+
+#workoutCam {
+  background-color: #E0E0E0;
+}
+
+/* Person2 Details Page*/
+#person2Heading {
+  font-family: "Poppins";
+  font-weight: 600;
+  color: #B8C6FF;
+  font-size: 20px;
+}
+
+#person2Button {
+  background-color: #334DB4;
+  color: #DEDEDE;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  padding: 10px 60px;
+  border-radius: 20px;
+}
+
+/* Workout Result */
+#workoutResultHeading {
+  font-family: "Poppins";
+  font-weight: 600;
+  color: #B8C6FF;
+  font-size: 24px;
+}
+
+QFrame[role="workoutResultCard"] {
+  border: 1px solid #68676D;
+  background-color: #1D192E;
+  border-radius: 22px;
+}
+
+#reportUsernameLine {
+  background-color: #C7C0E5;
+  border: none;
+  min-height: 1px;
+  max-height: 1px;
+}
+
+#reportDivider {
+  background-color: #6B6C79;
+  border: none;
+  min-width: 1px;
+  max-width: 1px;
+}
+
+#reportUsername {
+  font-family: "Poppins";
+  font-weight: 600;
+  color: #B8C6FF;
+  font-size: 20px;
+}
+
+#reportSubheading {
+  font-family: "Noto Sans";
+  font-weight: 600;
+  color: #DEDEDE;
+  font-size: 16px;
+}
+
+QWidget[role="correctPosture"] QLabel{
+  font-family: "Noto Sans";
+  font-weight: 500;
+  color: #DEDEDE;
+  font-size: 14px;
+}
+
+QWidget[role="extraResultInfo"] QLabel {
+  font-family: "Noto Sans";
+  font-weight: 600;
+  color: #DEDEDE;
+  font-size: 16px;
+}
+
+#reportDate {
+  font-family: "Noto Sans";
+  font-weight: 500;
+  color: #B8C6FF;
+  font-size: 15px;
+}
+
+/* Workout History */
+#previewHistoryCard {
+  background-color: #292D5E;
+  border: 1px solid #6B6C79;
+  border-radius: 10px;
+}
+
+QPushButton[role="filterCard"] {
+  background-color: #444A8C;
+  border: 1px solid #6B6C79;
+  border-radius: 14px;
+  font-family: "Noto Sans";
+  font-weight: 600;
+  color: #DEDEDE;
+  font-size: 14px;
+  padding: 4px 10px;
+}
+
+QPushButton[role="filterCard"]:hover {
+  background-color: #292D5E;
+}
+
+#historyMessage {
+  font-family: "Noto Sans";
+  font-weight: 500;
+  color: #B8C9FF;
+  font-size: 20px;
+}
+
+#historyDate {
+  font-family: "Noto Sans";
+  font-weight: 700;
+  color: #B8C9FF;
+  font-size: 19px;
+}
+
+#historyDuration {
+  font-family: "Noto Sans";
+  font-weight: 600;
+  color: #94A5EF;
+  font-size: 18px;
+}
+
+#historyMode {
+  font-family: "Noto Sans";
+  font-weight: 600;
+  color: #DEDEDE;
+  font-size: 18px;
+}
+
+#historyUsers {
+  font-family: "Noto Sans";
+  font-weight: 500;
+  color: #C7C7C7;
+  font-size: 16px;
+}
+
+#statusCompleted, #statusDefault {
+  font-family: "Noto Sans";
+  font-weight: 600;
+  font-style: italic;
+  color: #86AA3E;
+  font-size: 19px;
+}
+
+#statusDefault {
+  font-family: "Noto Sans";
+  font-weight: 600;
+  font-style: italic;
+  color: #B2982E;
+  font-size: 19px;
+}
+
+#statusFailed, #statusCancelled {
+  font-family: "Noto Sans";
+  font-weight: 600;
+  font-style: italic;
+  color: #CF4141;
+  font-size: 19px;
+}
+
+#historyToFull {
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-weight: 500;
+  color: #B8C6FF;
+}
+
+/* Workout History Full */
+#statusCompletedFull {
+  font-family: "Noto Sans";
+  font-weight: 600;
+  font-style: italic;
+  color: #86AA3E;
+  font-size: 18px;
+}
+
+#statusFailedFull, #statusCancelledFull {
+  font-family: "Noto Sans";
+  font-weight: 600;
+  font-style: italic;
+  color: #E85D75;
+  font-size: 18px;
+}
+
+#statusDefaultFull {
+  font-family: "Noto Sans";
+  font-weight: 600;
+  font-style: italic;
+  color: #B2982E;
+  font-size: 18px;
+}
+
+#recommendationCard {
+  background-color: #211E35;
+  border: 1px solid #45435A;
+  border-radius: 18px;
+}
+
+#recommendationTitle {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 600;
+  color: #DEDEDE;
+}
+
+#recommendationSubtitle {
+  font-family: "Noto Sans";
+  font-size: 13px;
+  font-weight: 500;
+  color: #AFAFBA;
+}
+
+#recommendationUserName {
+  font-family: "Poppins";
+  font-size: 17px;
+  font-weight: 600;
+  color: #B8C6FF;
+}
+
+#recommendationUserDivider {
+  background-color: #45435A;
+  border: none;
+  min-height: 1px;
+  max-height: 1px;
+}
+
+#recommendationExerciseCard {
+  background-color: #2B2742;
+  border: none;
+  border-radius: 10px;
+}
+
+#recommendationAccentBar {
+  background-color: #FA8112;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#recommendationExerciseContent {
+  background: transparent;
+  border: none;
+}
+
+#recommendationExerciseName {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 600;
+  color: #DEDEDE;
+}
+
+#recommendationRate {
+  font-family: "Noto Sans";
+  font-size: 14px;
+  font-weight: 700;
+  color: #FFB673;
+}
+
+#recommendationText {
+  font-family: "Noto Sans";
+  font-size: 14px;
+  font-weight: 500;
+  color: #D0CFD7;
+}
+
+#recommendationEmpty {
+  font-family: "Noto Sans";
+  font-size: 14px;
+  font-weight: 500;
+  color: #C7C7C7;
+}
+
+#recommendationReminder {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 600;
+  color: #FFB673;
+}
+
+/* Info-Confirmation Pages */
+#infoPageSubheading {
+  font-family: "Noto Sans";
+  font-weight: 500;
+  color: #C7C7C7;
+  font-size: 20px;
+}
+
+QPushButton[role="confirmButton"] {
+  background-color: #FA8112;
+  color: #1D192E;
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 600;
+  border: none;
+  padding: 6px 8px;
+  border-radius: 14px;
+}
+
+#confirmButtonReset {
+  background-color: #FA8112;
+  color: #1D192E;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 18px;
+}
+
+/* Profile Page */
+#accFrame {
+  background-color: #1D192E;
+  border: 1px solid #6B6C79;
+  border-radius: 6px;
+  padding: 8px;
+}
+
+#logoutButton {
+  background: transparent;
+  border: none;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 600;
+  color: #C7C7C7;
+  text-decoration: underline;
+}
+
+#innerHeading {
+  font-family: "Poppins";
+  font-weight: 600;
+  color: #B0AEE7;
+  font-size: 26px;
+}
+
+#emailText {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 500;
+  color: #808DC1;
+}
+
+/* Profile Details Card */
+#detailsFrame {
+  background-color: #1D192E;
+  border: 1px solid #6B6C79;
+  border-radius: 8px;
+}
+
+QLabel[role="profileField"] {
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-weight: 700;
+  color: #C7C7C7;
+}
+
+#valueFrame {
+  background-color: #B7BED7;
+  border-radius: 6px;
+  min-height: 34px;
+  max-height: 38px;
+}
+
+#valueFrame QLabel {
+  background: transparent;
+  font-family: "Noto Sans";
+  font-size: 14px;
+  font-weight: 500;
+  color: #1D192E;
+}
+
+#editButton {
+  background: transparent;
+  border: none;
+  padding-left: 10px;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 600;
+  color: #C7C7C7;
+}
+
+#editButton:hover {
+  background-color: #2A2742;
+  border-radius: 6px;
+}
+
+#saveButton {
+  background-color: #334DB4;
+
+  border: none;
+  border-radius: 18px;
+
+  padding: 8px;
+
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 600;
+  color: #DEDEDE;
+}

@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reset Password | Workout App</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <main class="page">
+        <section class="card">
+
+            <div class="logo-wrapper">
+                <img src="logo_horizontal.svg" alt="Workout App Logo" class="logo" />
+            </div>
+
+            <h1>Reset Password</h1>
+
+            <p class="subtitle">
+                Enter your new password to continue using your workout account.
+            </p>
+
+            <form id="resetForm" class="form">
+                <div class="input-group">
+                    <label for="password">New Password</label>
+                    <input
+                        id="password"
+                        type="password"
+                        placeholder="Enter new password"
+                        autocomplete="new-password"
+                    />
+                </div>
+
+                <div class="input-group">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input
+                        id="confirmPassword"
+                        type="password"
+                        placeholder="Confirm new password"
+                        autocomplete="new-password"
+                    />
+                </div>
+
+                <button id="resetBtn" type="submit">
+                    Reset Password
+                </button>
+            </form>
+
+            <p id="msg" class="message"></p>
+
+            <p class="footer-text">
+                You can close this page after your password is changed.
+            </p>
+
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

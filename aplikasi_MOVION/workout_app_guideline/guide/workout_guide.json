@@ -1,0 +1,79 @@
+[
+  {
+    "id": "jumping_jacks",
+    "name": "Jumping Jacks",
+    "videos": {
+    "front": "JumpingJacks_front.mkv",
+    "side": "JumpingJacks_side.mkv"
+    },
+    "reps_target": 15,
+    "duration": 60,
+    "muscles": [
+      "Lower Body",
+      "Upper Body",
+      "Core"
+    ],
+    "instruction": "Stand upright with feet together and arms at your sides. Jump while spreading your legs wider than shoulder-width and raising your arms overhead at the same time. Return to the starting position by jumping back with feet together and arms down. Keep a steady rhythm, stay light on your feet, and engage your core throughout the movement."
+  },
+  {
+    "id": "mountain_climber",
+    "name": "Mountain Climber",
+    "videos": {
+    "front": "MountainClimber_front.mkv",
+    "side": "MountainClimber_side.mkv"
+    },
+    "reps_target": 15,
+    "duration": 60,
+    "muscles": [
+      "Shoulders",
+      "Spine",
+      "Core",
+      "Hips"
+    ],
+    "instruction": "Start in a high plank position with hands under shoulders and body in a straight line. Engage your core to stabilize your hips. Drive one knee toward your chest, then stably switch legs in a stable motion. Keep your shoulders stable, avoid excessive hip movement, and maintain controlled breathing."
+  },
+  {
+    "id": "squat",
+    "name": "Squat",
+    "videos": {
+    "front": "Squat_front.mkv",
+    "side": "Squat_side.mkv"
+    },
+    "reps_target": 15,
+    "duration": 60,
+    "muscles": [
+      "Thighs",
+      "Glutes (Butt)"
+    ],
+    "instruction": "Stand with feet shoulder-width apart and toes slightly outward. Push your hips down and lower your body as if sitting into a chair while keeping your spine upright. Lower until thighs are parallel to the floor, then push through your heels to return to standing. Keep knees aligned and core engaged throughout."
+  },
+  {
+    "id": "knee_push_up",
+    "name": "Knee Push Up",
+    "videos": {
+    "front": "KneePushUp_front.mkv",
+    "side": "KneePushUp_side.mkv"
+    },
+    "reps_target": 15,
+    "duration": 60,
+    "muscles": [
+      "Chest",
+      "Triceps"
+    ],
+    "instruction": "Start in a modified push-up position with hands slightly wider than shoulder-width and knees on the floor. Keep your body in a straight line from head to knees. Lower your chest toward the floor by bending your elbows, then push back up. Keep your core tight and avoid letting your hips drop."
+  },
+  {
+    "id": "sit_up",
+    "name": "Sit Up",
+    "videos": {
+    "front": "SitUp_front.mkv",
+    "side": "SitUp_side.mkv"
+    },
+    "reps_target": 15,
+    "duration": 60,
+    "muscles": [
+      "Abdominal Muscles"
+    ],
+    "instruction": "Lie on your back with knees bent and feet flat on the floor. Place hands on your chest or lightly behind your head. Engage your core to lift your upper body toward your knees until seated. Lower back down slowly with control. Avoid pulling your neck and keep movement controlled."
+  }
+]

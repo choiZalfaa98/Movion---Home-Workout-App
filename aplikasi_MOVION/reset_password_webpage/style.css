@@ -1,0 +1,200 @@
+:root {
+    --bg-main: #0E0F1C;
+    --card-bg: #1D192E;
+
+    --input-fill: #B7BED7;
+    --input-stroke: #E0E0E0;
+    --input-focus: #FA8112;
+
+    --button-bg: #334DB4;
+    --button-text: #C7C7C7;
+
+    --text-main: #FFFFFF;
+    --text-muted: #C7C7C7;
+    --text-dark: #161616;
+
+    --success: #4ADE80;
+    --error: #FF6B6B;
+    --info: #FA8112;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: var(--bg-main);
+    font-family: "Noto Sans", sans-serif;
+    color: var(--text-main);
+}
+
+.page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 28px;
+}
+
+.card {
+    width: 100%;
+    max-width: 420px;
+    background: var(--card-bg);
+    border-radius: 20px;
+    padding: 42px 34px 34px;
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+}
+
+.logo-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 28px;
+}
+
+.logo {
+    width: 60%;
+    height: 20%;
+    object-fit: contain;
+    display: block;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.25;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 14.5px;
+    line-height: 1.6;
+    text-align: center;
+    color: var(--text-muted);
+    margin-bottom: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+label {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-muted);
+}
+
+input {
+    width: 100%;
+    height: 52px;
+    border-radius: 10px;
+    border: 1.5px solid var(--input-stroke);
+    background: var(--input-fill);
+    color: var(--text-dark);
+    padding: 0 16px;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    outline: none;
+    transition: border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+input::placeholder {
+    color: rgba(22, 22, 22, 0.55);
+}
+
+input:focus {
+    border-color: var(--input-focus);
+    box-shadow: 0 0 0 3px rgba(250, 129, 18, 0.18);
+}
+
+button {
+    width: 100%;
+    height: 54px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 24px;
+    background: var(--button-bg);
+    color: var(--button-text);
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.18s ease, opacity 0.18s ease;
+}
+
+button:hover {
+    transform: translateY(-1px);
+    opacity: 0.95;
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+button:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.message {
+    min-height: 22px;
+    margin-top: 18px;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.message.success {
+    color: var(--success);
+}
+
+.message.error {
+    color: var(--error);
+}
+
+.message.info {
+    color: var(--info);
+}
+
+.footer-text {
+    margin-top: 22px;
+    color: rgba(199, 199, 199, 0.7);
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    .page {
+        padding: 20px;
+    }
+
+    .card {
+        padding: 36px 24px 30px;
+        border-radius: 20px;
+    }
+
+    .logo {
+        width: 74px;
+        height: 74px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+}
