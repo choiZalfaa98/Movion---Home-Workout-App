@@ -1,6 +1,6 @@
-const supabaseUrl = "https://jnbqvacvpnyrykdqahtq.supabase.co";
+const supabaseUrl = "movion_supabase_url";
 
-const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpuYnF2YWN2cG55cnlrZHFhaHRxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODAwNjYwMDAsImV4cCI6MjA5NTY0MjAwMH0.fgcb4KsypHbsA5shMkjSryZ86vYVpOx_dLL99yAWdCk";
+const supabaseKey = "movion_supabase_anon_key";
 
 const client = supabase.createClient(supabaseUrl, supabaseKey, {
     auth: {

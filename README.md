@@ -23,61 +23,6 @@ The project combines computer vision, deep learning, and desktop application dev
 - **Backend and Authentication:** Supabase
 - **Configuration and Environment Management:** Conda
 
-## Installation and Setup
-
-### Prerequisites
-
-- Anaconda or Miniconda
-- Git
-- A compatible webcam for real-time workout tracking
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/choiZalfaa98/Movion---Home-Workout-App.git
-cd Movion---Home-Workout-App
-```
-
-### 2. Create the Conda Environment
-
-Create the environment using the provided configuration file:
-
-```bash
-conda env create -f environment.yml
-```
-
-Activate the environment using the name defined in `environment.yml`. For example, if the environment name is `homeWorkoutApp`:
-
-```bash
-conda activate homeWorkoutApp
-```
-
-If the environment already exists locally, activate it instead of creating it again.
-
-### 3. Configure Environment Variables
-
-The original `.env` file is not included in this repository. A template named `.env.example` is provided instead.
-
-From the repository root, create a local `.env` file:
-
-```powershell
-Copy-Item aplikasi_MOVION/.env.example aplikasi_MOVION/.env
-```
-
-Open `aplikasi_MOVION/.env` and fill in the required values using your own configuration (hint: script.js).
-
-Make sure the required Supabase URL and public client key are configured correctly.
-
-### 4. Run the Application
-
-From the repository root directory, run:
-
-```bash
-python aplikasi_MOVION/main.py
-```
-
-Make sure the Conda environment is activated before launching the application.
-
 ## Training Data and Model Files
 
 The training datasets are **not included in this repository** because of their large storage requirements, which can reach multiple gigabytes.
@@ -95,7 +40,7 @@ Consequently, reproducing the full model training process requires obtaining or 
 
 ## Project Purpose
 
-Movion was developed as a project exploring the integration of computer vision, deep learning, and desktop application development for home workout assistance.
+Movion was developed as a thesis project exploring the integration of computer vision, deep learning, and desktop application development for home workout assistance.
 
 The project demonstrates practical implementation of AI-based movement recognition, camera processing, workout session management, and user-facing application features.
 
